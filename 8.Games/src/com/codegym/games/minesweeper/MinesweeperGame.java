@@ -163,7 +163,7 @@ public class MinesweeperGame extends Game {
     
     private void win(){
         isGameStopped = true;
-        showMessageDialog(Color.WHITE, "CONGRATULATIONS! YOU WIN!", Color.BLACK, 25);
+        showMessageDialog(Color.WHITE, "CONGRATULATIONS! \nYOU WIN!", Color.BLACK, 25);
     } 
     
     private void gameOver(){
